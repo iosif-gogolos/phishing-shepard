@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Shepard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/dompurify@2.2.9/dist/purify.min.js"></script>
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto p-6">
+        <h1 class="text-2xl font-bold mb-4">Phishing Shepard</h1>
+        <textarea id="messageInput" class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="Fügen Sie hier die Nachricht ein..."></textarea>
+        <button id="checkButton" class="bg-blue-500 text-white py-2 px-4 rounded">Überprüfen</button>
+        <div id="feedback" class="mt-4"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
