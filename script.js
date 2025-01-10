@@ -56,7 +56,7 @@ i18next.init({
 });
 
 function updateContent() {
-    document.getElementById('checkButton').textContent = i18next.t('check');
+    document.getElementById('checkButton').textContent = i18next.t('Überprüfen');
     // Update other texts as needed
 }
 
